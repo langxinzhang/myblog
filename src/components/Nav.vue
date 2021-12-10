@@ -45,7 +45,7 @@ export default {
         }
     },
     mounted() {
-    // this.$store.dispatch('requestData')
+    this.$store.dispatch('requestData')
   },
 }
 </script>
